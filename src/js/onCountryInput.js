@@ -6,6 +6,7 @@ import { alertWrongName } from './alerts'
 import { alertTooManyMatches } from './alerts'
 
 
+
 export function onCountryInput() {
     const name = refs.countryInput.value.trim()
     if (name === '') {
