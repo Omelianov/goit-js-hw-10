@@ -2,8 +2,8 @@ import { fetchCountries } from "../fetchCountries"
 import { refs } from "./refs"
 import { renderCountryList } from './renderCountryList'
 import { renderCountryInfo } from './renderCountryInfo'
-import { alertWrongName } from './js/alerts'
-import { alertTooManyMatches } from './js/alerts'
+import { alertWrongName } from './alerts'
+import { alertTooManyMatches } from './alerts'
 
 
 export function onCountryInput() {
