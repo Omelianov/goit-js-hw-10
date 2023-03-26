@@ -1,4 +1,7 @@
 import { fetchCountries } from "../fetchCountries"
+import { refs } from "./refs"
+import { renderCountryList } from './renderCountryList'
+import { renderCountryInfo } from './renderCountryInfo'
 
 export function onCountryInput() {
     const name = refs.countryInput.value.trim()
