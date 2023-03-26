@@ -2,6 +2,9 @@ import { fetchCountries } from "../fetchCountries"
 import { refs } from "./refs"
 import { renderCountryList } from './renderCountryList'
 import { renderCountryInfo } from './renderCountryInfo'
+import { alertWrongName } from './js/alerts'
+import { alertTooManyMatches } from './js/alerts'
+
 
 export function onCountryInput() {
     const name = refs.countryInput.value.trim()
