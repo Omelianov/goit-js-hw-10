@@ -1,3 +1,5 @@
+import { fetchCountries } from "../fetchCountries"
+
 export function onCountryInput() {
     const name = refs.countryInput.value.trim()
     if (name === '') {
